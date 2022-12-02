@@ -1,5 +1,3 @@
-import os
-
 if __name__ == '__main__':
     for input_dir in ['test-files', 'input-files']:
         with open(f'{input_dir}/01.txt', mode='r', encoding='utf-8') as f:
